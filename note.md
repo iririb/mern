@@ -17,3 +17,11 @@ Back end
 
 DB
     MongoDB
+
+
+Each time finishing some chapter, let's perform git push with proper note. Step as below.
+    git -add .
+    git commit -m "<message>"
+    git push -u origin main
+
+Hash password
