@@ -24,4 +24,4 @@ Each time finishing some chapter, let's perform git push with proper note. Step 
     git commit -m "<message>"
     git push -u origin main
 
-Hash password
+JSON web token
