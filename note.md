@@ -23,5 +23,3 @@ Each time finishing some chapter, let's perform git push with proper note. Step 
     git -add .
     git commit -m "<message>"
     git push -u origin main
-
-JSON web token
