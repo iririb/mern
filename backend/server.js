@@ -29,7 +29,7 @@ app.use((req, res, next) => {
 // we will use method define in workoutRoutes
 app.use('/api/workouts', workoutRoutes)
 app.use('/api/user', userRoutes)
-
+console.log("how this?")
 // connect to DB
 mongoose.connect(process.env.MONGO_CONNECTION_STRING)
     .then(() => {
@@ -41,6 +41,7 @@ mongoose.connect(process.env.MONGO_CONNECTION_STRING)
 
     })
     .catch((error) => {
+        console.log("Masuk error")
         console.log(error)
     })
 
